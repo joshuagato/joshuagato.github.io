@@ -189,6 +189,9 @@ $(document).ready(function() {
 
     // $.fancybox([data-fancybox]);
     // $.fancybox.showLoading()
+    $('[data-fancybox="gallery"]').fancybox({
+    	// Options will go here
+    });
 
 
     // $("[data-fancybox]").fancybox({
