@@ -170,7 +170,7 @@ $(document).ready(function() {
 
     $("#share").jsSocials({
         shares: ["email", "twitter", "facebook", "linkedin", "whatsapp"],
-        url: "https://jgato410.github.io/",
+        url: "https://joshuagato.github.io/",
         text: "Joshua Gato's Portfolio Website",
         showLabel: false,
         showCount: true,
