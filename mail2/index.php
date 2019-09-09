@@ -4,7 +4,7 @@
 	//the message
 	$msg = "Your message";
 	//recipient email here
-	$rec = "jgato410@gmail.com";
+	$rec = "joshuagato37@gmail.com";
 	//send email
 
 	if (mail($rec,$sub,$msg)) {

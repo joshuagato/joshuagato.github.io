@@ -8,8 +8,8 @@
         $message .= '<a href="'.$url.'">'.$url.'</a></p>';
 
         //$headers = "From: basketmouth <info@basketmouth.com>\r\n";
-        $headers = "From: basketmouth <lawmens37@gmail.com>\r\n";
-        $headers .= "Reply-To: lawmens37@gmail.com\r\n";
+        $headers = "From: basketmouth <joshuagato37@gmail.com>\r\n";
+        $headers .= "Reply-To: joshuagato37@gmail.com\r\n";
         $headers .= "Content-type: text/html\r\n";
 
         if (mail($to, $subject, $message, $headers)) {
