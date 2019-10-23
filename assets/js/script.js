@@ -34,29 +34,25 @@ $(window).on("load", function() {
     // $("[data-fancybox]").fancybox();
     // $(".open-button").fancybox();
 
-    document.querySelector(".nav-link.icons.phone-call").addEventListener("click", function(event){
-      event.preventDefault();
+    // document.querySelector(".nav-link.icons.phone-call").addEventListener("click", function(event){
+    //   event.preventDefault();
       // window.location.href = "tel:0202677472";
-      console.console.log(123456);
-    });
+    //   console.console.log(123456);
+    // });
 
     // document.getElementById("phone-call").addEventListener("click", function(event){
     //   event.preventDefault();
     //   console.console.log("1234565");
     // });
-
-
-
-
 });
 
 
 
 $(document).ready(function() {
 
-  $(".nav-link icons phone-call").click(function(e) {
-      e.preventDefault();
-  });
+//   $(".nav-link icons phone-call").click(function(e) {
+    //   e.preventDefault();
+//   });
 
   // var date = new Date();
   // // var year date.getFullYear();

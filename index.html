@@ -80,33 +80,34 @@
         <a class="navbar-brand" href="index.html">Joshua Gato</a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
+            <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link in-nav" href="#about">About <span class="sr-only">(current)</span></a>
+                <a class="nav-link in-nav" href="#about">About <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link in-nav" href="#skills">Skills</a>
+                <a class="nav-link in-nav" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link in-nav" href="#stats">Statistics</a>
+                <a class="nav-link in-nav" href="#stats">Statistics</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link in-nav" href="#contact">Contact</a>
+                <a class="nav-link in-nav" href="#contact">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link in-nav" href="#portfolio">Portfolio</a>
+                <a class="nav-link in-nav" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link icons" target="_blank" href="https://web.facebook.com/joshua.gato.5074"><img src="assets/images/icons/facebook.png"></a>
-              <a class="nav-link icons" target="_blank" href="https://twitter.com/joshuagato2"><img src="assets/images/icons/twitter.png"></a>
-              <a class="nav-link icons" target="_blank" href="https://github.com/joshuagato"><img src="assets/images/icons/github.png"></a>
-              <a class="nav-link icons" target="_blank" href="https://www.linkedin.com/in/joshua-gato-b9581a192/"><img src="assets/images/icons/linkedin.png"></a>
-              <a class="nav-link icons" target="_blank" href="#"><img src="assets/images/icons/whatsapp.png"></a>
-              <a class="nav-link icons" target="_blank" id="phone-call" href=""><img src="assets/images/icons/phone.png"></a>
+                <span style="color: #9d9d9d;">Find me on</span>
+                <a class="nav-link icons" target="_blank" href="https://web.facebook.com/joshua.gato.5074"><img src="assets/images/icons/facebook.png"></a>
+                <a class="nav-link icons" target="_blank" href="https://twitter.com/joshuagato2"><img src="assets/images/icons/twitter.png"></a>
+                <a class="nav-link icons" target="_blank" href="https://github.com/joshuagato"><img src="assets/images/icons/github.png"></a>
+                <a class="nav-link icons" target="_blank" href="https://www.linkedin.com/in/joshua-gato-b9581a192/"><img src="assets/images/icons/linkedin.png"></a>
+                <a class="nav-link icons" target="_blank" href="#"><img src="assets/images/icons/whatsapp.png"></a>
+                <a class="nav-link icons" target="_blank" id="phone-call" href=""><img src="assets/images/icons/phone.png"></a>
             </li>
           </ul>
         </div>
@@ -120,27 +121,44 @@
 
             <div class="row">
 
-                <div class="col-md-5">
-                    <img class="about-image" src="assets/images/about2.jpg" alt="">
+                <div class="col-sm-12">
+                    <div id="accordion">
+                        <div class="card card-bg">
+                            <div class="card-header">
+                                <button class="btn btn-block bg-secondary text-light text-left" data-toggle="collapse" data-target="#collapseOne">
+                                    <img src="assets/images/about1.jpg" width="50" class="mr-3 rounded">
+                                    <span>Click here to read about me</span>
+                                </button>
+                            </div>
+                            <div id="collapseOne" class="collapse" data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-11 mx-auto text-justify d-flex flex-column align-items-center flex-md-row align-items-md-center justify-content-md-between">
+                                            <div class="col-md-3">
+                                                <img src="assets/images/about2.jpg" width="220" class="rounded">
+                                            </div>
+                                            <div class="col-md-9">
+                                                <p>
+                                                    Hi there! I'm Joshua Gato from Ghana. I have a few years experience creating Java apps
+                                                    and websites for both myself, and for loved ones. I have experience programming in three
+                                                    languages which are Java, Javascript and PHP, however, some of my favourite projects involve
+                                                    working in EcmaScript6 for Vue.js and Object-oriented (modular) PHP for Laravel.
+                                                </p>
+                                                <p>
+                                                    I graduated from University of Cape Coast, Ghana with a second class upper in Information Technology
+                                                    and spent all the days after my one year mandatory service to the nation self-studying hardcore web
+                                                    development and building websites, web apps, etc. I'm still learning, working on projects would and
+                                                    always learn till i give up the ghost. Thanks for spending time to read my long essay.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
-                <div class="col-md-7">
-                    <h4>My name is Joshua Gato</h4>
-                    <p>
-                        Hi there! I'm Joshua Gato from Ghana. I'm currently learning Angular.
-                        I have a few years experience creating Java apps and websites for both myself,
-                        and for loved ones. I have experience programming in three languages which are Java,
-                        Javascript and PHP, however, some of my favourite projects involve working in EcmaScript6 &
-                        TypeScript for Angular and Object-oriented (modular) PHP for Laravel.
-                    </p>
-                    <p>
-                        I graduated from University of Cape Coast, Ghana with a second class upper
-                        in Information Technology and also spent a year self studying web development
-                        after my one year mandatory service to the nation. I'm still learning and would
-                        always learn till i give up the ghost!
-                    </p>
-                </div>
-
+                
             </div>
 
         </div>
@@ -216,20 +234,11 @@
                         </div>
 
                     <div class="skill">
-                        <span class="chart" data-percent="25">
-                            <span class="percent">25</span>
+                        <span class="chart" data-percent="50">
+                            <span class="percent">50</span>
                             <canvas height="152" width="152"></canvas>
                         </span>
                         <h4>ECMASCRIPT 6</h4>
-                        <p>Used in most of my web based projects</p>
-                    </div>
-
-                    <div class="skill">
-                        <span class="chart" data-percent="20">
-                            <span class="percent">20</span>
-                            <canvas height="152" width="152"></canvas>
-                        </span>
-                        <h4>TYPESCRIPT</h4>
                         <p>Used in most of my web based projects</p>
                     </div>
 
@@ -437,206 +446,220 @@
 
 
                 <div class="items-container">
+                <!-- <div class=""> -->
 
-                    <ul class="items">
+                    <ul class="items row mx-auto mx-md-0">
+                    <!-- <ul class="row items itemsa"> -->
 
-                        <li onclick="" class="webs col-xs-6 col-sm-4 col-md-3 col-lg-3">
-
+                        <li onclick="" class="webs col-12 col-md-6 col-lg-4 mb-4 mx-auto">
                             <div class="item">
 
-                                <img src="assets/images/portfolio/thumbnail/ucomso-thumbail.PNG">
+                                <div class="card">
+                                    <img class="card-img-top" src="./assets/images/portfolio/thumbnail/ucomso-thumbail.PNG">
 
-                                <div class="icons">
+                                    <div class="icons">
 
-                                    <a class="open-button" target="_blank" href="http://joshuagato.unaux.com/ucomso/" title="View Site">
-                                        <i class="fab fa-internet-explorer"></i>
-                                    </a>
+                                        <a class="open-button" target="_blank" href="http://joshuagato.unaux.com/ucomso/" title="View App">
+                                            <i class="fab fa-internet-explorer"></i>
+                                        </a>
+    
+                                        <a class="project-link" href="https://gitlab.com/jgato37/ucomso" title="View Code" target="_blank">
+                                            <i class="fab fa-gitlab"></i>
+                                        </a>
+    
+                                    </div>
+        
+                                    <div class="image-overlay"></div>
 
-                                    <a class="project-link" href="https://gitlab.com/jgato37/ucomso" title="View Code" target="_blank">
-                                        <i class="fab fa-gitlab"></i>
-                                    </a>
-
+                                    <div class="card-body">
+                                        <div class="card-title">
+                                            <h3 class="text-muted">Ucomso Forum</h3>
+                                        </div>
+                                        <div class="card-subtitle">
+                                            <p class="text-secondary">This is the web app part of my project work back in University.</p>
+                                        </div>
+                                        <div class="text-right">
+                                            <p class="text-info">Used: HTML, CSS, JS, PHP & BS</p>
+                                        </div>
+                                    </div>
                                 </div>
-
-                                <div class="image-overlay"></div>
-
                             </div>
-
                         </li>
 
-
-                        <li onclick="" class="webs col-xs-6 col-sm-4 col-md-3 col-lg-3">
-
+                        <li onclick="" class="webs col-12 col-md-6 col-lg-4 mb-4 mx-auto">
                             <div class="item">
 
-                                <img src="assets/images/portfolio/thumbnail/videotube-thumbnail.PNG">
+                                <div class="card">
+                                    <img class="card-img-top" src="./assets/images/portfolio/thumbnail/videotube-thumbnail.PNG">
 
-                                <div class="icons">
+                                    <div class="icons">
 
-                                    <a class="open-button" target="_blank" href="http://joshuagato.unaux.com/videotube/" title="View Site">
-                                        <i class="fab fa-internet-explorer"></i>
-                                    </a>
+                                        <a class="open-button" target="_blank" href="http://joshuagato.unaux.com/videotube/" title="View App">
+                                            <i class="fab fa-internet-explorer"></i>
+                                        </a>
+    
+                                        <a class="project-link" href="https://gitlab.com/jgato37/videotube" title="View Code" target="_blank">
+                                            <i class="fab fa-gitlab"></i>
+                                        </a>
+    
+                                    </div>
+        
+                                    <div class="image-overlay"></div>
 
-                                    <a class="project-link" href="https://gitlab.com/jgato37/videotube" title="View Code" target="_blank">
-                                        <i class="fab fa-gitlab"></i>
-                                    </a>
-
+                                    <div class="card-body">
+                                        <div class="card-title">
+                                            <h3 class="text-muted">Video Tube</h3>
+                                        </div>
+                                        <div class="card-subtitle">
+                                            <p class="text-secondary">This is a complex web app which is a Youtube Clone.</p>
+                                        </div>
+                                        <div class="text-right">
+                                            <p class="text-info">Used: HTML, CSS, JS, PHP, BS, JQ</p>
+                                        </div>
+                                    </div>
                                 </div>
-
-                                <div class="image-overlay"></div>
-
                             </div>
-
                         </li>
 
-
-                        <li onclick="" class="webs col-xs-6 col-sm-4 col-md-3 col-lg-3">
-
+                        <li onclick="" class="webs col-12 col-md-6 col-lg-4 mb-4 mx-auto">
                             <div class="item">
 
-                                <img src="assets/images/portfolio/thumbnail/slotify-thumbnail.PNG">
+                                <div class="card">
+                                    <img class="card-img-top" src="./assets/images/portfolio/thumbnail/slotify-thumbnail.PNG">
 
-                                <div class="icons">
+                                    <div class="icons">
 
-                                    <a class="open-button" target="_blank" href="http://joshuagato.unaux.com/slotify/" title="View Site">
-                                        <i class="fab fa-internet-explorer"></i>
-                                    </a>
+                                        <a class="open-button" target="_blank" href="http://joshuagato.unaux.com/slotify/" title="View App">
+                                            <i class="fab fa-internet-explorer"></i>
+                                        </a>
+    
+                                        <a class="project-link" href="https://gitlab.com/jgato37/slotify" title="View Code" target="_blank">
+                                            <i class="fab fa-gitlab"></i>
+                                        </a>
+    
+                                    </div>
+        
+                                    <div class="image-overlay"></div>
 
-                                    <a class="project-link" href="https://gitlab.com/jgato37/slotify" title="View Code" target="_blank">
-                                        <i class="fab fa-gitlab"></i>
-                                    </a>
-
+                                    <div class="card-body">
+                                        <div class="card-title">
+                                            <h3 class="text-muted">Slotify</h3>
+                                        </div>
+                                        <div class="card-subtitle">
+                                            <p class="text-secondary">This is a complex web app which is a Spotify clone.</p>
+                                        </div>
+                                        <div class="text-right">
+                                            <p class="text-info">Used: HTML, CSS, JS, PHP, BS & JQ</p>
+                                        </div>
+                                    </div>
                                 </div>
-
-                                <div class="image-overlay"></div>
-
                             </div>
-
                         </li>
 
-
-                        <li onclick="" class="vue col-xs-6 col-sm-4 col-md-3 col-lg-3">
-
+                        <li onclick="" class="vue col-12 col-md-6 col-lg-4 mb-4 mx-auto mx-md-0">
                             <div class="item">
 
-                                <img src="assets/images/portfolio/thumbnail/todo-app-thnumnail.PNG">
+                                <div class="card">
+                                    <img class="card-img-top" src="./assets/images/portfolio/thumbnail/todo-app-thnumbnail.PNG">
 
-                                <div class="icons">
+                                    <div class="icons">
 
-                                    <a class="open-button" target="_blank" href="https://joshuagato-todo-app.netlify.com" title="View App">
-                                        <i class="fab fa-internet-explorer"></i>
-                                    </a>
+                                        <a class="open-button" target="_blank" href="https://joshuagato-todo-app.netlify.com" title="View App">
+                                            <i class="fab fa-internet-explorer"></i>
+                                        </a>
+    
+                                        <a class="project-link" href="https://github.com/joshuagato/VueTodoApp" title="View Code" target="_blank">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+    
+                                    </div>
+        
+                                    <div class="image-overlay"></div>
 
-                                    <a class="project-link" href="https://github.com/joshuagato/VueTodoApp" title="View Code" target="_blank">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-
+                                    <div class="card-body">
+                                        <div class="card-title">
+                                            <h3 class="text-muted">Todo App</h3>
+                                        </div>
+                                        <div class="card-subtitle">
+                                            <p class="text-secondary">This is a simple front todo app.</p>
+                                        </div>
+                                        <div class="text-right">
+                                            <p class="text-info">Used: VUE.js, CSS</p>
+                                        </div>
+                                    </div>
                                 </div>
-
-                                <div class="image-overlay"></div>
-
                             </div>
-
                         </li>
 
-
-                        <li onclick="" class="vue col-xs-6 col-sm-4 col-md-3 col-lg-3">
-
+                        <li onclick="" class="vue col-12 col-md-6 col-lg-4 mb-4 mx-auto mx-md-0">
                             <div class="item">
 
-                                <img src="assets/images/portfolio/thumbnail/calculator-thumbnail.PNG">
+                                <div class="card">
+                                    <img class="card-img-top" src="./assets/images/portfolio/thumbnail/calculator-thumbnail.PNG">
 
-                                <div class="icons">
+                                    <div class="icons">
 
-                                    <a class="open-button" target="_blank" href="https://joshuagato-vue-calculator.netlify.com" title="View App">
-                                        <i class="fab fa-internet-explorer"></i>
-                                    </a>
+                                        <a class="open-button" target="_blank" href="https://joshuagato-vue-calculator.netlify.com" title="View App">
+                                            <i class="fab fa-internet-explorer"></i>
+                                        </a>
+    
+                                        <a class="project-link" href="https://github.com/joshuagato/VueCalculator" title="View Code" target="_blank">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+    
+                                    </div>
+        
+                                    <div class="image-overlay"></div>
 
-                                    <a class="project-link" href="https://github.com/joshuagato/VueCalculator" title="View Code" target="_blank">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-
+                                    <div class="card-body">
+                                        <div class="card-title">
+                                            <h3 class="text-muted">VUE Calculator</h3>
+                                        </div>
+                                        <div class="card-subtitle">
+                                            <p class="text-secondary">This is a simple VUE.js calculator.</p>
+                                        </div>
+                                        <div class="text-right">
+                                            <p class="text-info">Used: VUE.js, CSS</p>
+                                        </div>
+                                    </div>
                                 </div>
-
-                                <div class="image-overlay"></div>
-
                             </div>
-
                         </li>
 
-                        <li onclick="" class="vue col-xs-6 col-sm-4 col-md-3 col-lg-3">
-
-                            <div class="item">
-
-                                <img src="assets/images/portfolio/thumbnail/emailApp-thumbnail.PNG">
-
-                                <div class="icons">
-
-                                    <a class="open-button" target="_blank" href="joshuagato-vue-email-app.netlify.com" title="View App">
-                                        <i class="fab fa-internet-explorer"></i>
-                                    </a>
-
-                                    <a class="project-link" href="https://github.com/joshuagato/VueEmail" title="View Code" target="_blank">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-
+                        <li onclick="" class="vue col-12 col-md-6 col-lg-4 mb-4 mx-auto mx-md-0">
+                                <div class="item">
+    
+                                    <div class="card">
+                                        <img class="card-img-top" src="./assets/images/portfolio/thumbnail/Todo-Manager-thumbnail.PNG">
+    
+                                        <div class="icons">
+    
+                                            <a class="open-button" target="_blank" href="https://joshuagato-todo-manager.netlify.com" title="View App">
+                                                <i class="fab fa-internet-explorer"></i>
+                                            </a>
+        
+                                            <a class="project-link" href="https://github.com/joshuagato/VueTodoManager" title="View Code" target="_blank">
+                                                <i class="fab fa-github"></i>
+                                            </a>
+        
+                                        </div>
+            
+                                        <div class="image-overlay"></div>
+    
+                                        <div class="card-body">
+                                            <div class="card-title">
+                                                <h3 class="text-muted">Todo Manager</h3>
+                                            </div>
+                                            <div class="card-subtitle">
+                                                <p class="text-secondary">This is a simple VUE.js Todo manager.</p>
+                                            </div>
+                                            <div class="text-right">
+                                                <p class="text-info">Used: VUE.js, CSS</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-
-                                <div class="image-overlay"></div>
-
-                            </div>
-
-                        </li>
-
-
-                        <li onclick="" class="vue col-xs-6 col-sm-4 col-md-3 col-lg-3">
-
-                            <div class="item">
-
-                                <img src="assets/images/portfolio/thumbnail/E-Commerce-thumbnail.PNG">
-
-                                <div class="icons">
-
-                                    <a class="open-button" target="_blank" href="http://joshuagato.unaux.com/ecommerce/" title="View App">
-                                        <i class="fab fa-internet-explorer"></i>
-                                    </a>
-
-                                    <a class="project-link" href="https://github.com/joshuagato/VueEcommerce" title="View Code" target="_blank">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-
-                                </div>
-
-                                <div class="image-overlay"></div>
-
-                            </div>
-
-                        </li>
-
-
-                        <li onclick="" class="vue col-xs-6 col-sm-4 col-md-3 col-lg-3">
-
-                            <div class="item">
-
-                                <img src="assets/images/portfolio/thumbnail/Todo-Manager-thumbnail.PNG">
-
-                                <div class="icons">
-
-                                    <a class="open-button" target="_blank" href="https://joshuagato-todo-manager.netlify.com" title="View App">
-                                        <i class="fab fa-internet-explorer"></i>
-                                    </a>
-
-                                    <a class="project-link" href="https://github.com/joshuagato/VueTodoManager" title="View Code" target="_blank">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-
-                                </div>
-
-                                <div class="image-overlay"></div>
-
-                            </div>
-
-                        </li>
+                            </li>
 
                     </ul>
 
@@ -657,9 +680,9 @@
 
         <div class="col-md-12 text-center">
 
-            <p>Copyright &copy; Joshua Gato, <span id="year"></span>.</p>
+            <p>Built by Joshua Gato, <span id="year"></span></p>
 
-            <p style="margin-top: 10px;"><i>SHARE ON: </i><span id="share"></span></p>
+            <p style="margin-top: 1rem; display: flex; justify-content: center; align-items: center;"><span>SHARE ON </span><span id="share"></span></p>
 
         </div>
 
