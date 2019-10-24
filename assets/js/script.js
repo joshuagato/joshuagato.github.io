@@ -50,6 +50,15 @@ $(window).on("load", function() {
 
 $(document).ready(function() {
 
+    $('.nav-button').click(function() {
+        $('.nav-button').toggleClass('change');
+    });
+
+
+    $('.in-nav').click(function() {
+        $(this).addClass('clicked-on').siblings().removeClass('clicked-on');
+    });
+
 //   $(".nav-link icons phone-call").click(function(e) {
     //   e.preventDefault();
 //   });
@@ -127,7 +136,12 @@ $(document).ready(function() {
     var countUpFinished = false;
 
     $(window).scroll(function() {
+
+        let position = $(this).scrollTop();
+        // console.log(position);
+
         if(window.pageYOffset > skillsTopOffset - $(window).height() + 200) {
+        // if(position >= 933) {
 
             $(".chart").easyPieChart({
                 easing: 'easeInOut',
@@ -143,7 +157,8 @@ $(document).ready(function() {
         }
 
         if(!countUpFinished && window.pageYOffset > statsTopOffset - $(window).height() + 200) {
-            // $(".counter").countup(123);
+        // if(position >= 1512) {
+
             $(".counter").each(function() {
                 var element = $(this);
                 var endVal = parseInt(element.text());
@@ -161,7 +176,7 @@ $(document).ready(function() {
 
         var targetElement = $(this).attr("href");
         var targetPosition = $(targetElement).offset().top;
-        $("html, body").animate({ scrollTop: targetPosition - 100}, "slow");
+        $("html, body").animate({ scrollTop: targetPosition - 50}, "slow");
     });
 
 

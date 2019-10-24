@@ -1,3 +1,22 @@
+@font-face {
+    font-family: 'Great Vibes';
+    src: url('../fonts/GreatVibes-Regular.ttf');
+}@font-face {
+    font-family: 'Sacramento';
+    src: url('../fonts/Sacramento-Regular.ttf');
+}@font-face {
+    font-family: 'Cookie';
+    src: url('../fonts/Cookie-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Bellota-LightItalic';
+    src: url('../fonts/Bellota-LightItalic.otf');
+}@font-face {
+    font-family: 'Bellota-Italic';
+    src: url('../fonts/Bellota-Italic.otf');
+}
+
 body {
     font-size: 14px;
     color: #333;
@@ -43,10 +62,154 @@ body {
     }
 }
 
+/******************************************* Added *******************************************/ 
 .card-bg {
     background-color: #d5e1e4;
 }
 
+.about-photo {
+    animation-name: anim-from-left;
+    animation-duration: 4s;
+}
+
+.about-para {
+    animation-name: anim-from-right;
+    animation-duration: 4s;
+}
+
+
+@keyframes anim-from-left {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    25% {
+        opacity: 0.25;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    75% {
+        opacity: 0.75;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes anim-from-right {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    25% {
+        opacity: 0.25;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    75% {
+        opacity: 0.75;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@media(max-width: 575.98px) {
+
+    @keyframes anim-from-left {
+        0% {
+            transform: translateY(-100px);
+            opacity: 0;
+        }
+        25% {
+            opacity: 0.25;
+        }
+        50% {
+            opacity: 0.5;
+        }
+        75% {
+            opacity: 0.75;
+        }
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+    
+    @keyframes anim-from-right {
+        0% {
+            transform: translateY(100px);
+            opacity: 0;
+        }
+        25% {
+            opacity: 0.25;
+        }
+        50% {
+            opacity: 0.5;
+        }
+        75% {
+            opacity: 0.75;
+        }
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+}
+
+.line1, .line2, .line3 {
+    width: 27px;
+    height: 2px;
+    margin: 5px;
+    transition: all 0.4s;
+}
+
+.change {
+
+    .line1 {
+        transform: rotate(-45deg) translate(-5px, 6px);
+    }
+
+    .line2 {
+        opacity: 0;
+    }
+
+    .line3 {
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+}
+
+// .nav-menu {
+    // background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5));
+    // padding: 30px;
+// }
+
+
+#collapseOne {
+    
+    .card-body {
+        overflow: hidden;
+    }
+}
+
+.items-container {
+    
+    .card-body {
+        //background-color: #b7b7b7a6;
+        background-color: #34495e;
+    }
+}
+
+.clicked-on {
+    color: #fff !important;
+}
+
+
+/******************************************* End of Added *******************************************/ 
 .title-message {
     position: absolute;
     width: 100%;
@@ -81,6 +244,10 @@ body {
         text-align: center;
         padding-bottom: 40px;
         width: 100%;
+
+        &.about {
+            padding-bottom: 20px;
+        }
     }
 }
 
@@ -95,6 +262,10 @@ body {
     // background-color: #2C3E50;
     background-color: #34495E;
     color: #fff;
+
+    .heading {
+        text-shadow: 6px 6px 4px rgba(0,0,0, 0.9);
+    }
 }
 
 .skill {
@@ -124,6 +295,17 @@ body {
         &:after {
             content: '%';
         }
+    }
+}
+
+.stats-section,
+.portfolio-section,
+.about-section {
+    
+    .heading {
+        color: #444;
+        text-shadow: 6px 6px 4px rgba(68,68,68, 0.7);
+        
     }
 }
 
@@ -194,6 +376,7 @@ body {
     margin-top: 20px;
     border: 1px solid #fff;
     border-radius: 4px;
+    transition: all 0.9s;
 
     &:hover {
         text-decoration: none;
@@ -205,12 +388,17 @@ body {
 }
 
 .filter {
+    
     text-align: center;
     width: 100%;
 
+    ul {
+        padding: 0;
+    }
+
     li {
         display: inline-block;
-        padding: 5px;
+        padding: 2px;
     }
 
     a {
@@ -231,19 +419,25 @@ body {
 }
 
 
+
+.items-container {
+    width: 100%;
+
+    ul {
+        padding-left: 0.5rem; //this
+        padding-right: 0.5rem; //this
+        margin: 0;
+        list-style: none;
+        // and add col- - for mobile on li element
+    }
+}
+
+
 .items {
 
-    padding: 0;
-    // margin: auto;
-    // list-style: none;
-    // margin: auto;
-
     li {
-        // display: inline-block;
-        // padding: 5px;
+        
         list-style: none;
-        // margin: auto;
-        // padding: 0;
 
         img {
             width: 100%;
@@ -347,10 +541,6 @@ body {
     }
 }
 
-.items-container {
-    width: 100%;
-}
-
 .copyright-section {
     background-color: #000;
     color: #fff;
@@ -363,8 +553,8 @@ body {
 
 #navigation {
     // background-color: #34495E;
-    background-color: #101010;;
-    padding: 10px 10px;
+    background-color: #101010;
+    padding: 2px 10px;
     z-index: 100;
     width: 100%;
 
@@ -375,12 +565,27 @@ body {
         }
     }
 
+    .vibes {
+        // font-family: cursive;
+        // font-family: 'Cookie', cursive;
+        font-family: 'Sacramento', cursive;
+        // font-family: 'Great Vibes', cursive;
+        // font-family: 'Bellota-Italic';
+        // font-family: 'Bellota-LightItalic';
+        font-size: 1.5rem;
+        transition: all 0.9s;
+    }
 
     li {
         padding: 0 10px;
 
         a {
             color: #9d9d9d;
+            transition: all 0.9s;
+
+            &:hover {
+                color: #fff;
+            }
 
             &.icons {
                 display: inline-block;
@@ -400,6 +605,7 @@ body {
             img {
                 width: 100%;
                 opacity: 0.5;
+                transition: all 0.9s;
 
                 &:hover, &:focus, &:active {
                     opacity: 1;
@@ -410,11 +616,6 @@ body {
                 img {
                     width: 100%;
                 }
-            }
-
-
-            &:hover {
-                color: #fff;
             }
         }
     }
