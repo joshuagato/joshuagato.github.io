@@ -97,7 +97,7 @@ $(document).ready(function() {
 
 
     var typed = new Typed(".typed", {
-        strings: ["Fullstack Web Developer.", "Passionate Technology Student..."],
+        strings: ["Application Developer.", "Passionate Technology Student..."],
         typeSpeed: 100,
         loop: true,
         startDelay: 1000,
