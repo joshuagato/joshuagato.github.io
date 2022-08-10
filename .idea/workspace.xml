@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f1974f1-f171-464c-8ddb-c8839969d312" name="Default" comment="updated the date from single current date to range">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="7f1974f1-f171-464c-8ddb-c8839969d312" name="Default" comment="updated my phone number to my very old number" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -148,7 +145,7 @@
       <workItem from="1571815153921" duration="744000" />
       <workItem from="1574246828211" duration="583000" />
       <workItem from="1575701931466" duration="199000" />
-      <workItem from="1660143026157" duration="372000" />
+      <workItem from="1660143026157" duration="544000" />
     </task>
     <task id="LOCAL-00001" summary="updated the date from single current date to range">
       <created>1660143272676</created>
@@ -157,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660143272676</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="updated my phone number to my very old number">
+      <created>1660143435461</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660143435461</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -211,7 +215,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated the date from single current date to range" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated the date from single current date to range" />
+    <MESSAGE value="updated my phone number to my very old number" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated my phone number to my very old number" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/assets/js/script.js">
