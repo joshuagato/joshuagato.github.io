@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f1974f1-f171-464c-8ddb-c8839969d312" name="Default" comment="Changed the colour of the filters for the projects">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="7f1974f1-f171-464c-8ddb-c8839969d312" name="Default" comment="Added aliexpress" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -193,7 +190,7 @@
       <workItem from="1768404832639" duration="893000" />
       <workItem from="1769584769687" duration="170000" />
       <workItem from="1769636396440" duration="2209000" />
-      <workItem from="1769638763150" duration="251000" />
+      <workItem from="1769638763150" duration="394000" />
     </task>
     <task id="LOCAL-00001" summary="updated the date from single current date to range">
       <created>1660143272676</created>
@@ -240,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769638533605</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added aliexpress">
+      <option name="closed" value="true" />
+      <created>1769639049414</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1769639049414</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -298,7 +303,8 @@
     <MESSAGE value="Updated my linkedin profile url" />
     <MESSAGE value="Added twitter clone" />
     <MESSAGE value="Changed the colour of the filters for the projects" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed the colour of the filters for the projects" />
+    <MESSAGE value="Added aliexpress" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added aliexpress" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/assets/js/script.js">
