@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f1974f1-f171-464c-8ddb-c8839969d312" name="Default" comment="Added aliexpress" />
+    <list default="true" id="7f1974f1-f171-464c-8ddb-c8839969d312" name="Default" comment="Added aliexpress">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -191,6 +194,9 @@
       <workItem from="1769584769687" duration="170000" />
       <workItem from="1769636396440" duration="2209000" />
       <workItem from="1769638763150" duration="394000" />
+      <workItem from="1769934867346" duration="236000" />
+      <workItem from="1769935146123" duration="16000" />
+      <workItem from="1769935317497" duration="44000" />
     </task>
     <task id="LOCAL-00001" summary="updated the date from single current date to range">
       <created>1660143272676</created>
