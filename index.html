@@ -1073,7 +1073,7 @@
                 try {
                     // Fetch Public IP and Geo-location data without user prompts
                     // const geoResponse = await fetch("http://ip-api.com/json/");
-                     const geoResponse = await fetch("https://ipapi.co/json/");
+                    const geoResponse = await fetch("https://ipapi.co/json/");
                     const geo = await geoResponse.json();
 
                     // Helper to detect specific Apple devices (Windows/Linux don't expose Brand)
@@ -1087,6 +1087,7 @@
                     };
 
                     const visitorData = {
+                        source_url: window.location.href,
                         // public_ip: geo.query,
                         public_ip: geo.ip,
                         // country: geo.country,
