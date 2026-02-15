@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f1974f1-f171-464c-8ddb-c8839969d312" name="Default" comment="Converted scss to css and css.map using file watchers">
-      <change beforePath="$PROJECT_DIR$/.idea/Portfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Portfolio.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="7f1974f1-f171-464c-8ddb-c8839969d312" name="Default" comment="Added image for new portfolio">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../react-tailwind-personal-portfolio-main/src/sections/Hero.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-tailwind-personal-portfolio-main/src/sections/Hero.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -221,7 +217,7 @@
       <workItem from="1769951728279" duration="17000" />
       <workItem from="1769971582958" duration="284000" />
       <workItem from="1769974928106" duration="114000" />
-      <workItem from="1771152633712" duration="16095000" />
+      <workItem from="1771152633712" duration="17083000" />
     </task>
     <task id="LOCAL-00001" summary="updated the date from single current date to range">
       <created>1660143272676</created>
@@ -308,7 +304,39 @@
       <option name="project" value="LOCAL" />
       <updated>1771171146205</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Updated call buttons">
+      <option name="closed" value="true" />
+      <created>1771181229084</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1771181229084</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Updated call buttons in template">
+      <option name="closed" value="true" />
+      <created>1771181244912</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1771181244912</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added .idea metadata">
+      <option name="closed" value="true" />
+      <created>1771181272057</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1771181272057</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Added image for new portfolio">
+      <option name="closed" value="true" />
+      <created>1771181324752</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1771181324752</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -371,7 +399,11 @@
     <MESSAGE value="Added new portfolio website" />
     <MESSAGE value="Used media query to change the projects grid from x3 to x4" />
     <MESSAGE value="Converted scss to css and css.map using file watchers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Converted scss to css and css.map using file watchers" />
+    <MESSAGE value="Updated call buttons" />
+    <MESSAGE value="Updated call buttons in template" />
+    <MESSAGE value="Added .idea metadata" />
+    <MESSAGE value="Added image for new portfolio" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added image for new portfolio" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/assets/js/script.js">
