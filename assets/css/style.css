@@ -486,8 +486,11 @@ body {
   width: 32px;
   height: 32px;
 }
-#navigation li a.new-portfolio, #navigation li a.new-portfolio:hover, #navigation li a.new-portfolio:active, #navigation li a.new-portfolio:active {
+#navigation li a.new-portfolio, #navigation li a.new-portfolio:focus {
   color: #dc3545 !important;
+}
+#navigation li a.new-portfolio:hover, #navigation li a.new-portfolio:active {
+  color: #208e0e !important;
 }
 @media (max-width: 991px) {
   #navigation li a.icons {
