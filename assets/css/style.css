@@ -486,6 +486,9 @@ body {
   width: 32px;
   height: 32px;
 }
+#navigation li a.new-portfolio, #navigation li a.new-portfolio:hover, #navigation li a.new-portfolio:active, #navigation li a.new-portfolio:active {
+  color: #dc3545 !important;
+}
 @media (max-width: 991px) {
   #navigation li a.icons {
     margin: 0 4px;
@@ -546,6 +549,18 @@ button.navbar-toggler:hover, button.navbar-toggler:focus, button.navbar-toggler:
   background: url(../images/icons/loader.gif) center center no-repeat;
 }
 
+#navbarNav #call-and-whatsapp-number a {
+  margin-inline: 2px;
+  padding-inline: 2px;
+}
+#navbarNav #call-and-whatsapp-number a.icons {
+  width: 20px;
+  height: 20px;
+}
+#navbarNav #call-and-whatsapp-number span {
+  color: #dc3545 !important;
+  cursor: default;
+}
 #navbarNav #call-and-whatsapp-number img {
   width: 16px;
   height: 16px;

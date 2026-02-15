@@ -598,6 +598,10 @@ body {
                 height: 32px;
             }
 
+            &.new-portfolio, &.new-portfolio:hover, &.new-portfolio:active, &.new-portfolio:active {
+                color: #dc3545 !important;
+            }
+
             @media (max-width: 991px) {
                 &.icons {
                     // display: inline-block;    //Redundant code
@@ -689,6 +693,21 @@ button {
 
 #navbarNav {
     #call-and-whatsapp-number {
+        a {
+            margin-inline: 2px;
+            padding-inline: 2px;
+
+            &.icons {
+                width: 20px;
+                height: 20px;
+            }
+        }
+
+        span {
+            color: #dc3545!important;
+            cursor: default;
+        }
+
         img {
             width: 16px;
             height: 16px;
