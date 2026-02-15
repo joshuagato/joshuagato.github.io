@@ -126,17 +126,25 @@
 
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-            <li class="nav-item" id="call-and-whatsapp-number">
-                <a class="nav-link in-nav text-danger" href="#portfolio"
-                >
 
-                    <img src="assets/images/icons/whatsapp.png"
-                    />
-                    <img src="assets/images/icons/phone.png"
-                    />
-                    0278-22-38-38</a
-                >
+            <li class="nav-item" id="call-and-whatsapp-number">
+                <a
+                        class="nav-link icons"
+                        href="https://api.whatsapp.com/send/?phone=233278223838&text&type=phone_number&app_absent=0"
+                        target="_blank"
+                ><img src="assets/images/icons/whatsapp.png"
+                /></a>
+                <a
+                        class="nav-link icons"
+                        href="tel: +233278223838"
+                        id="phone-call"
+                        target="_blank"
+                ><img src="assets/images/icons/phone.png"
+                /></a>
+
+                <span class="text-danger">0278-22-38-38</span>
             </li>
+
 
             <li class="nav-item active">
                 <a class="nav-link in-nav" href="#about"
@@ -153,8 +161,9 @@
                 <a class="nav-link in-nav" href="#contact">Contact</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link out-nav text-danger" href="https://joshuagato.online" target="_blank">New Portfolio
-                    </a>
+                <a class="nav-link out-nav text-danger new-portfolio" href="https://joshuagato.online" target="_blank">New
+                    Portfolio
+                </a>
             </li>
 
             <li class="nav-item">
@@ -182,19 +191,6 @@
                         href="https://www.linkedin.com/in/joshuagato"
                         target="_blank"
                 ><img src="assets/images/icons/linkedin.png"
-                /></a>
-                <a
-                        class="nav-link icons"
-                        href="https://api.whatsapp.com/send/?phone=233278223838&text&type=phone_number&app_absent=0"
-                        target="_blank"
-                ><img src="assets/images/icons/whatsapp.png"
-                /></a>
-                <a
-                        class="nav-link icons"
-                        href="tel: +233278223838"
-                        id="phone-call"
-                        target="_blank"
-                ><img src="assets/images/icons/phone.png"
                 /></a>
             </li>
         </ul>
@@ -472,7 +468,7 @@
 </div>
 
 <div class="portfolio-section section" id="portfolio">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <h2 class="heading">PORTFOLIO</h2>
             <div class="filter">
@@ -508,9 +504,9 @@
                     <!-- <ul class="row items itemsa"> -->
                     <div class="container-fluid">
                         <div class="row items">
-<!--                            new-react-portfolio.png-->
+                            <!--                            new-react-portfolio.png-->
                             <li
-                                    class="react col-md-6 col-lg-4 mb-4 mx-auto"
+                                    class="react col-md-6 col-lg-3 mb-4 mx-auto"
                                     onclick=""
                             >
                                 <div class="item">
@@ -557,7 +553,7 @@
                                             </div>
                                             <div class="text-left">
                                                 <p class="text-light">
-                                                    Used: React, Django
+                                                    Used: React, TailwindCSS, Lucide-React, Email.JS, Django
                                                 </p>
                                             </div>
                                         </div>
@@ -565,7 +561,7 @@
                                 </div>
                             </li>
                             <li
-                                    class="react col-md-6 col-lg-4 mb-4 mx-auto"
+                                    class="react col-md-6 col-lg-3 mb-4 mx-auto"
                                     onclick=""
                             >
                                 <div class="item">
@@ -623,7 +619,7 @@
                                 </div>
                             </li>
                             <li
-                                    class="react col-md-6 col-lg-4 mb-4 mx-auto"
+                                    class="react col-md-6 col-lg-3 mb-4 mx-auto"
                                     onclick=""
                             >
                                 <div class="item">
@@ -681,7 +677,7 @@
                                 </div>
                             </li>
                             <li
-                                    class="next col-md-6 col-lg-4 mb-4 mx-auto"
+                                    class="next col-md-6 col-lg-3 mb-4 mx-auto"
                                     onclick=""
                             >
                                 <div class="item">
@@ -730,7 +726,7 @@
                                             <div class="text-left">
                                                 <p class="text-light">
                                                     Used: Next/TS,
-                                                    Clerk/Sanity,
+                                                    Clerk Auth, Sanity Dashboard,
                                                     Zustand, VercelAI
                                                 </p>
                                             </div>
@@ -739,7 +735,7 @@
                                 </div>
                             </li>
                             <li
-                                    class="next col-md-6 col-lg-4 mb-4 mx-auto"
+                                    class="next col-md-6 col-lg-3 mb-4 mx-auto"
                                     onclick=""
                             >
                                 <div class="item">
@@ -797,7 +793,7 @@
                                 </div>
                             </li>
                             <li
-                                    class="next col-md-6 col-lg-4 mb-4 mx-auto mx-md-0"
+                                    class="next col-md-6 col-lg-3 mb-4 mx-auto mx-md-0"
                                     onclick=""
                             >
                                 <div class="item">
@@ -846,7 +842,7 @@
                                             <div class="text-left">
                                                 <p class="text-light">
                                                     Used: Next/TS,
-                                                    Drizzle/NeonDB,
+                                                    Drizzle, NeonDB, PostgreSQL,
                                                     ShadCN, Zod
                                                 </p>
                                             </div>
@@ -855,7 +851,7 @@
                                 </div>
                             </li>
                             <li
-                                    class="laravue col-md-6 col-lg-4 mb-4 mx-auto mx-md-0"
+                                    class="laravue col-md-6 col-lg-3 mb-4 mx-auto mx-md-0"
                                     onclick=""
                             >
                                 <div class="item">
@@ -914,7 +910,7 @@
                                 </div>
                             </li>
                             <li
-                                    class="laravue col-md-6 col-lg-4 mb-4 mx-auto mx-md-0"
+                                    class="laravue col-md-6 col-lg-3 mb-4 mx-auto mx-md-0"
                                     onclick=""
                             >
                                 <div class="item">
@@ -972,7 +968,7 @@
                                 </div>
                             </li>
                             <li
-                                    class="nuxt col-md-6 col-lg-4 mb-4 mx-auto mx-md-0"
+                                    class="nuxt col-md-6 col-lg-3 mb-4 mx-auto mx-md-0"
                                     onclick=""
                             >
                                 <div class="item">
@@ -1030,7 +1026,7 @@
                                 </div>
                             </li>
                             <li
-                                    class="nuxt col-md-6 col-lg-4 mb-4 mx-auto mx-md-0"
+                                    class="nuxt col-md-6 col-lg-3 mb-4 mx-auto mx-md-0"
                                     onclick=""
                             >
                                 <div class="item">
