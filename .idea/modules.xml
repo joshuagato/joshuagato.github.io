@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Portfolio.iml" filepath="$PROJECT_DIR$/.idea/Portfolio.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../react-tailwind-personal-portfolio-main/.idea/react-tailwind-personal-portfolio-main.iml" filepath="$PROJECT_DIR$/../react-tailwind-personal-portfolio-main/.idea/react-tailwind-personal-portfolio-main.iml" />
     </modules>
   </component>
 </project>
