@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f1974f1-f171-464c-8ddb-c8839969d312" name="Default" comment="Added refs to urls">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="7f1974f1-f171-464c-8ddb-c8839969d312" name="Default" comment="Refined the url state">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -225,7 +224,7 @@
       <workItem from="1771480543773" duration="100000" />
       <workItem from="1771480732156" duration="83000" />
       <workItem from="1771481209770" duration="760000" />
-      <workItem from="1771482195638" duration="274000" />
+      <workItem from="1771482195638" duration="475000" />
     </task>
     <task id="LOCAL-00001" summary="updated the date from single current date to range">
       <created>1660143272676</created>
@@ -376,7 +375,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771459288244</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Refined the url state">
+      <option name="closed" value="true" />
+      <created>1771482645188</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1771482645188</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -446,7 +453,8 @@
     <MESSAGE value="Added .idea metadata" />
     <MESSAGE value="Added ref url param" />
     <MESSAGE value="Added refs to urls" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added refs to urls" />
+    <MESSAGE value="Refined the url state" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refined the url state" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/assets/js/script.js">
