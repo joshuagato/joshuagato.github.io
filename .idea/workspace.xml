@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f1974f1-f171-464c-8ddb-c8839969d312" name="Default" comment="Added ref url param">
+    <list default="true" id="7f1974f1-f171-464c-8ddb-c8839969d312" name="Default" comment="Added refs to urls">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -220,7 +220,12 @@
       <workItem from="1769974928106" duration="114000" />
       <workItem from="1771152633712" duration="17592000" />
       <workItem from="1771458704542" duration="184000" />
-      <workItem from="1771458917522" duration="219000" />
+      <workItem from="1771458917522" duration="392000" />
+      <workItem from="1771459361793" duration="6000" />
+      <workItem from="1771480543773" duration="100000" />
+      <workItem from="1771480732156" duration="83000" />
+      <workItem from="1771481209770" duration="760000" />
+      <workItem from="1771482195638" duration="274000" />
     </task>
     <task id="LOCAL-00001" summary="updated the date from single current date to range">
       <created>1660143272676</created>
@@ -363,7 +368,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771458859975</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Added refs to urls">
+      <option name="closed" value="true" />
+      <created>1771459288244</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1771459288244</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -432,7 +445,8 @@
     <MESSAGE value="Updated pseudo classes" />
     <MESSAGE value="Added .idea metadata" />
     <MESSAGE value="Added ref url param" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added ref url param" />
+    <MESSAGE value="Added refs to urls" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added refs to urls" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/assets/js/script.js">

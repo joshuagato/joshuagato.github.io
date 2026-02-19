@@ -1133,13 +1133,22 @@
     const apiUrl = CONFIG.API_URL;
 
     (async function () {
+        // 1. Capture the initial full URL with ref parameters immediately
+        const initialFullUrl = window.location.href;
+
         try {
-            // Fetch Public IP and Geo-location data without user prompts
-            // const geoResponse = await fetch("http://ip-api.com/json/");
+            // 2. Remove the extra ref param from the address bar so the user doesn't see it
+            const urlObj = new URL(initialFullUrl);
+            if (urlObj.searchParams.has('ref')) {
+                const cleanUrl = urlObj.origin + urlObj.pathname;
+                // Updates address bar without reloading the page
+                window.history.replaceState({}, document.title, cleanUrl);
+            }
+
+            // 3. Fetch Geo-location data
             const geoResponse = await fetch("https://ipapi.co/json/");
             const geo = await geoResponse.json();
 
-            // Helper to detect specific Apple devices (Windows/Linux don't expose Brand)
             const getDeviceBrand = () => {
                 const ua = navigator.userAgent;
                 if (/iPhone/.test(ua)) return "Apple / iPhone";
@@ -1150,22 +1159,17 @@
             };
 
             const visitorData = {
-                source_url: window.location.href,
-                // public_ip: geo.query,
+                // 4. Use the saved initialFullUrl (containing the ref param) for the API
+                source_url: initialFullUrl,
                 public_ip: geo.ip,
-                // country: geo.country,
                 country: geo.country_name,
                 city: geo.city,
-                // New Fields
-                isp: geo.isp,
+                isp: geo.org, // ipapi.co uses 'org' for provider info
                 org: geo.org,
-                // region: geo.region,
                 region: geo.region_code,
-                // region_name: geo.regionName,
                 region_name: geo.region,
                 timezone: geo.timezone,
-                zip_code: geo.zip,
-                // Original Metadata
+                zip_code: geo.postal, // ipapi.co uses 'postal' instead of 'zip'
                 browser:
                     navigator.userAgentData?.brands?.[0]?.brand ||
                     "Unknown Browser",
@@ -1174,7 +1178,7 @@
                 user_agent: navigator.userAgent,
             };
 
-            // Send data to Django API
+            // 5. Send data (including the hidden ref info) to your Django API
             await fetch(apiUrl, {
                 method: "POST",
                 headers: {"Content-Type": "application/json"},
@@ -1182,7 +1186,7 @@
                 body: JSON.stringify(visitorData),
             });
         } catch (e) {
-            // Fail silently - no console logs or UI changes
+            // Fail silently
         }
     })();
 </script>
