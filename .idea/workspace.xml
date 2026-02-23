@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f1974f1-f171-464c-8ddb-c8839969d312" name="Default" comment="Refined the url state">
+    <list default="true" id="7f1974f1-f171-464c-8ddb-c8839969d312" name="Default" comment="Added xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +147,7 @@
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/joshuagato.github.io/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63344/Portfolio/index.html">
+    <configuration name="index.html" type="JavascriptDebugType" nameIsGenerated="true" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63344/Portfolio/index.html">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/joshuagato.github.io/index.html" useBuiltInWebServerPort="true">
@@ -162,6 +163,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.index.html" />
+      <item itemvalue="JavaScript Debug.index.html (1)" />
+      <item itemvalue="npm.dev" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.index.html (1)" />
@@ -225,7 +231,8 @@
       <workItem from="1771480732156" duration="83000" />
       <workItem from="1771481209770" duration="760000" />
       <workItem from="1771482195638" duration="578000" />
-      <workItem from="1771827006408" duration="2226000" />
+      <workItem from="1771827006408" duration="2249000" />
+      <workItem from="1771833986483" duration="418000" />
     </task>
     <task id="LOCAL-00001" summary="updated the date from single current date to range">
       <created>1660143272676</created>
@@ -392,7 +399,23 @@
       <option name="project" value="LOCAL" />
       <updated>1771482681747</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Added xmk">
+      <option name="closed" value="true" />
+      <created>1771833618998</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1771833618998</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Added xml">
+      <option name="closed" value="true" />
+      <created>1771833624598</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1771833624598</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -463,7 +486,9 @@
     <MESSAGE value="Added ref url param" />
     <MESSAGE value="Added refs to urls" />
     <MESSAGE value="Refined the url state" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refined the url state" />
+    <MESSAGE value="Added xmk" />
+    <MESSAGE value="Added xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added xml" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/assets/js/script.js">
