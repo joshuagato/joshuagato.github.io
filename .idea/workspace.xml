@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f1974f1-f171-464c-8ddb-c8839969d312" name="Default" comment="Added xml">
+    <list default="true" id="7f1974f1-f171-464c-8ddb-c8839969d312" name="Default" comment="Changed my new website title">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -164,8 +164,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="JavaScript Debug.index.html (1)" />
+      <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="npm.dev" />
     </list>
     <recent_temporary>
@@ -232,7 +232,9 @@
       <workItem from="1771481209770" duration="760000" />
       <workItem from="1771482195638" duration="578000" />
       <workItem from="1771827006408" duration="2249000" />
-      <workItem from="1771833986483" duration="418000" />
+      <workItem from="1771833986483" duration="550000" />
+      <workItem from="1771836064544" duration="123000" />
+      <workItem from="1771923681745" duration="41000" />
     </task>
     <task id="LOCAL-00001" summary="updated the date from single current date to range">
       <created>1660143272676</created>
@@ -415,7 +417,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771833624598</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Changed my new website title">
+      <option name="closed" value="true" />
+      <created>1771834520976</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1771834520976</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -488,7 +498,8 @@
     <MESSAGE value="Refined the url state" />
     <MESSAGE value="Added xmk" />
     <MESSAGE value="Added xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added xml" />
+    <MESSAGE value="Changed my new website title" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed my new website title" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/assets/js/script.js">
