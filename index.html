@@ -1160,14 +1160,9 @@
             } catch(error) {
                 console.log('log 2: ', error.message);
             }
-
-            console.log('Hello', {geoResponse, geoResponse2});
             
-            console.log('Hello');
             const geo  = geoResponse  ? await geoResponse.json()  : {};
             const geo2 = geoResponse2 ? await geoResponse2.json() : {};
-
-            console.log('Hello');
 
             const getDeviceBrand = () => {
                 const ua = navigator.userAgent;
