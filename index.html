@@ -1187,26 +1187,36 @@
                 return { os, arch, deviceType, platform };
             };
 
-            const detectBrowser = () => {
+            const detectBrowser = async () => {
                 const ua = navigator.userAgent;
                 let name = 'Unknown', version = 'Unknown', engine = 'Unknown';
 
-                const browsers = [
-                    { name: 'Opera',           regex: /OPR\/([0-9.]+)/ },
-                    { name: 'Opera (old)',     regex: /Opera\/([0-9.]+)/ },
-                    { name: 'Edge (Chromium)', regex: /Edg\/([0-9.]+)/ },
-                    { name: 'Edge (Legacy)',   regex: /Edge\/([0-9.]+)/ },
-                    { name: 'Samsung Browser', regex: /SamsungBrowser\/([0-9.]+)/ },
-                    { name: 'Chrome',          regex: /Chrome\/([0-9.]+)/ },
-                    { name: 'Firefox',         regex: /Firefox\/([0-9.]+)/ },
-                    { name: 'Safari',          regex: /Version\/([0-9.]+).*Safari/ },
-                    { name: 'IE',              regex: /MSIE ([0-9.]+)/ },
-                    { name: 'IE 11',           regex: /Trident.*rv:([0-9.]+)/ },
-                ];
+                // Brave exposes this API — check it first
+                const isBrave = await navigator?.brave?.isBrave().catch(() => false);
 
-                for (const b of browsers) {
-                    const m = ua.match(b.regex);
-                    if (m) { name = b.name; version = m[1]; break; }
+                if (isBrave) {
+                    name = 'Brave';
+                    const m = ua.match(/Chrome\/([0-9.]+)/);
+                    version = m ? m[1] : 'Unknown';
+                } else {
+                    const browsers = [
+                        { name: 'Opera',           regex: /OPR\/([0-9.]+)/ },
+                        { name: 'Opera (old)',     regex: /Opera\/([0-9.]+)/ },
+                        { name: 'Edge (Chromium)', regex: /Edg\/([0-9.]+)/ },
+                        { name: 'Edge (Legacy)',   regex: /Edge\/([0-9.]+)/ },
+                        { name: 'Samsung Browser', regex: /SamsungBrowser\/([0-9.]+)/ },
+                        { name: 'Chromium',        regex: /Chromium\/([0-9.]+)/ },
+                        { name: 'Chrome',          regex: /Chrome\/([0-9.]+)/ },
+                        { name: 'Firefox',         regex: /Firefox\/([0-9.]+)/ },
+                        { name: 'Safari',          regex: /Version\/([0-9.]+).*Safari/ },
+                        { name: 'IE',              regex: /MSIE ([0-9.]+)/ },
+                        { name: 'IE 11',           regex: /Trident.*rv:([0-9.]+)/ },
+                    ];
+
+                    for (const b of browsers) {
+                        const m = ua.match(b.regex);
+                        if (m) { name = b.name; version = m[1]; break; }
+                    }
                 }
 
                 if (/Gecko\//.test(ua) && /Firefox/.test(ua)) engine = 'Gecko';
@@ -1218,7 +1228,7 @@
             };
 
             const osInfo  = detectOS();
-            const browser = detectBrowser();
+            const browser = await detectBrowser();
 
             const visitorData = {
                 source_url:      initialFullUrl,
