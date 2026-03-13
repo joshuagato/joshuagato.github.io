@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f1974f1-f171-464c-8ddb-c8839969d312" name="Default" comment="Updated code to detect all browsers">
+    <list default="true" id="7f1974f1-f171-464c-8ddb-c8839969d312" name="Default" comment="Updated code slightly">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -226,7 +226,8 @@
       <workItem from="1772656773720" duration="55000" />
       <workItem from="1772658402436" duration="19000" />
       <workItem from="1772661995445" duration="27000" />
-      <workItem from="1772689733502" duration="36000" />
+      <workItem from="1772689733502" duration="191000" />
+      <workItem from="1773385802778" duration="511000" />
     </task>
     <task id="LOCAL-00001" summary="updated the date from single current date to range">
       <created>1660143272676</created>
@@ -433,7 +434,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772656814124</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Updated code slightly">
+      <option name="closed" value="true" />
+      <created>1772689798715</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1772689798715</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -509,7 +518,8 @@
     <MESSAGE value="Changed my new website title" />
     <MESSAGE value="Updated my phone number's pattern" />
     <MESSAGE value="Updated code to detect all browsers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated code to detect all browsers" />
+    <MESSAGE value="Updated code slightly" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated code slightly" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/assets/js/script.js">
